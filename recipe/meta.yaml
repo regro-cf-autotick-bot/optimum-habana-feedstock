@@ -1,5 +1,5 @@
 {% set name = "optimum-habana" %}
-{% set version = "1.1.2" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/optimum-habana-{{ version }}.tar.gz
-  sha256: bfe02df164de0250c0e75336d9bb1f92e674e9724e03750c94f0d1e508d64dc8
+  sha256: 7c6fb67f065c290f86c106b61eda2acecc0222f2694037bbb6fa85cb7c23a7e7
 
 build:
   number: 0
